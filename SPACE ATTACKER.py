@@ -6,9 +6,9 @@ from util import *
 class menus:
     def cred():
         print(f'''
-    {Fore.BLUE}[{Fore.RED}Github{Fore.BLUE}] @DXVVAY(DEXV), @Xvirus0, @2l2cgit(AdminX)
-    {Fore.BLUE}[{Fore.RED}Twitter{Fore.BLUE}] @dexvisnotgay
-    {Fore.BLUE}[{Fore.RED}Discord{Fore.BLUE}] .gg/xvirus, @dexv0, @admin2rich
+    {Fore.BLUE}[{Fore.RED}Github{Fore.RED] @GALAXY_ATTACKER
+    {Fore.BLUE}[{Fore.RED}Twitter{Fore.RED}] @JAY IS A BITCH
+    {Fore.BLUE}[{Fore.RED}Discord{Fore.RED}] NOT HERE
         ''')
         Output.PETC()
 
@@ -82,23 +82,22 @@ class gui:
         Output.PETC()
 
     def print_menu():
-        pc_username = config._get("xvirus_username")
+        pc_username = config._get("Xvirus_username")
         theme = config._get("xvirus_theme")
         theme = getattr(Fore, theme)
         lb = Fore.LIGHTBLACK_EX
         r = theme
         logo = f'''{r}
                                                                                   
-                                         ,.   (   .      )        .      "        
-                                       ("     )  )'     ,'        )  . (`     '`   
-                                     .; )  ' (( (" )    ;(,     ((  (  ;)  "  )"  │Tokens: {len(gui.get_tokens())}
-                                    _"., ,._'_.,)_(..,( . )_  _' )_') (. _..( '.. │Proxies: {len(gui.get_proxies())}
-                                    ██╗  ██╗██╗   ██╗██╗██████╗ ██╗   ██╗ ██████╗ ├─────────────
-                                    ╚██╗██╔╝██║   ██║██║██╔══██╗██║   ██║██╔════╝ │Running on:
-                                     ╚███╔╝ ╚██╗ ██╔╝██║██████╔╝██║   ██║╚█████╗  │{pc_username}\'s PC
-                                     ██╔██╗  ╚████╔╝ ██║██╔══██╗██║   ██║ ╚═══██╗ ├─────────────
-                                    ██╔╝╚██╗  ╚██╔╝  ██║██║  ██║╚██████╔╝██████╔╝ │Discord link:          
-> [TM] Made by Xvirus™              ╚═╝  ╚═╝   ╚═╝   ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝  │.gg/xvirus
+                                              
+                                         
+                                                 │Tokens: {len(gui.get_tokens())}
+                                                 │Proxies: {len(gui.get_proxies())}
+                         𝙂𝞓𝙇𝞓𝞦𝞧 𝞓𝞣𝞣𝞓𝘾𝞙𝞢𝞒       ├─────────────
+                                    N             │Running on:
+                                       │          {pc_username}\'s PC
+                                             ├      ─────────────
+> [TM] Made by GALAXY™              
 > [?] {THIS_VERSION} Changelog                                                                                     Notes [NOTE] <
 > [!] Settings                                                                                     Manage Tokens [TKN] <'''
 
@@ -127,7 +126,7 @@ class gui:
             lb = Fore.LIGHTBLACK_EX
             r = theme
             utility.clear()
-            Output.set_title(f"Xvirus {THIS_VERSION}")
+            Output.set_title(f"SPACE ATTACKER {THIS_VERSION}")
             gui.print_menu()
             pc_username = config._get("xvirus_username")
             print(f'{r}┌──<{pc_username}@Xvirus>─[~]')
